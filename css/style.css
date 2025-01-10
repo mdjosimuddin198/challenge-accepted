@@ -7,6 +7,17 @@
 body {
   max-width: 1200px;
   margin: auto;
+  background-color: #f1f1f3;
+}
+/* utiltiy class  */
+.site-title {
+  margin: 20px 0px;
+  padding: 20px 0px;
+}
+.gray {
+  color: gray;
+  margin: 20px 0px;
+  padding: 20px 0px;
 }
 /* nav section start  */
 nav ul {
@@ -48,7 +59,6 @@ nav ul button:hover {
   border-radius: 7px;
 }
 .bangladesh-discription p {
-  color: gray;
   padding: 10px;
   margin: 5px;
   font-weight: bold;
@@ -75,3 +85,58 @@ nav ul button:hover {
   margin: 15px;
 }
 /* hero section end  */
+/* pillars section start  */
+.pillars-section {
+  display: flex;
+}
+.pillars-card {
+  width: 25%;
+  /* height: 244px; */
+  background-color: white;
+  margin: 15px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+/* pillars section end  */
+/* visions section start  */
+.vision-card {
+  width: 33%;
+}
+.vision-card button {
+  padding: 7px 15px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 7px;
+}
+
+#card1 {
+  background-color: rgba(169, 193, 235, 0.4);
+}
+#card1 button {
+  background-color: #5490f5;
+}
+#card2 {
+  background-color: rgba(9, 161, 92, 0.2);
+}
+#card2 button {
+  background: #006a50;
+}
+#card3 {
+  background-color: rgba(255, 194, 57, 0.2);
+}
+#card3 button {
+  background: #ffc239;
+}
+
+#card1 button:hover {
+  background-color: #000;
+}
+#card2 button:hover {
+  background-color: #000;
+}
+#card3 button:hover {
+  background-color: #000;
+}
+/* visions section end */

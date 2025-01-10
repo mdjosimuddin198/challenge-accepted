@@ -5,7 +5,7 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 body {
-  max-width: 1200px;
+  max-width: 1100px;
   margin: auto;
   background-color: #f1f1f3;
 }
@@ -16,8 +16,11 @@ body {
 }
 .gray {
   color: gray;
-  margin: 20px 0px;
-  padding: 20px 0px;
+  margin: 10px 0px;
+  padding: 10px 0px;
+}
+.center {
+  text-align: center;
 }
 /* nav section start  */
 nav ul {
@@ -140,3 +143,167 @@ nav ul button:hover {
   background-color: #000;
 }
 /* visions section end */
+/* famouse sppece section start here  */
+.spaece-container {
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+.speace-title {
+  /* padding: 10px; */
+  background: url("./assets/quote-bg.png") no-repeat;
+}
+.spaece-container p {
+  margin: 5px;
+  padding: 5px;
+}
+#youns,
+.spaece-container h3 {
+  color: gray;
+  padding: 5px;
+}
+/* famouse sppece section end here  */
+/* opinion-section start here  */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background: white;
+}
+table tr th {
+  background-color: #c6e4d6;
+  width: 100%;
+  padding: 10px;
+}
+table tr td {
+  padding: 10px;
+}
+/* table,
+th,
+td {
+  border: 1px solid red;
+} */
+.table-row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+}
+td {
+  border: 1px solid black;
+  width: 12%;
+}
+.width {
+  width: 88%;
+  height: 40.5px;
+}
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+.border {
+  border: 2px solid red;
+}
+#option {
+  padding: 10px;
+  background-color: #c6e4d6;
+}
+
+/* opinion-section end here  */
+/* resent new section start here  */
+.recent-news {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.news-card-discription {
+  padding: 20px;
+  line-height: 43px;
+}
+.news-card-discription button {
+  padding: 6px 15px;
+  background-color: #006a50;
+  color: white;
+  border-radius: 7px;
+  border: none;
+}
+.recent-news2 {
+  flex-direction: row-reverse;
+}
+/* resent new section  end here  */
+
+/* donet section start here  */
+.donet-card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  margin: 10px;
+}
+.donet-card {
+  width: 15%;
+  border-radius: 8px;
+  background-color: white;
+  text-align: center;
+  padding: 30px;
+}
+#donet-card-bg {
+  background: #c6e4d6;
+}
+input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  margin: auto;
+  display: block;
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  border: none;
+}
+.donet-btn {
+  margin: auto;
+  display: block;
+  padding: 10px 25px;
+  margin-bottom: 10px;
+  background-color: #006a50;
+  border: none;
+  color: white;
+}
+/* donet section end here  */
+/* footer section start here  */
+.footer-item {
+  line-height: 30px;
+}
+#newslater {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#newslater input {
+  padding: 10px 25px;
+  border: none;
+  width: 50%;
+  margin-bottom: 5px;
+}
+#newslater button {
+  background: #006a50;
+  padding: 10px 25px;
+  border: none;
+  margin-bottom: 5px;
+  border-radius: 7px;
+}
+.fixed {
+  justify-content: center;
+  gap: 20px;
+}
+.fixed li:hover {
+  transform: scale(1.4);
+
+  transition: all ease;
+}
+
+/* footer section end here  */

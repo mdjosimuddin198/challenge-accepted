@@ -272,6 +272,7 @@ input[type="text"] {
   background-color: #006a50;
   border: none;
   color: white;
+  border-radius: 7px;
 }
 /* donet section end here  */
 /* footer section start here  */
@@ -288,13 +289,22 @@ input[type="text"] {
   border: none;
   width: 50%;
   margin-bottom: 5px;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
 }
 #newslater button {
   background: #006a50;
   padding: 10px 25px;
+  color: white;
   border: none;
   margin-bottom: 5px;
-  border-radius: 7px;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+#newslater button:hover {
+  transform: scale(1.2);
+  background: #000;
+  transition: all ease;
 }
 .fixed {
   justify-content: center;
